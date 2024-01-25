@@ -17,6 +17,9 @@ import TheFooter from '@/components/TheFooter.vue'
 div {
   overflow-x: hidden;
   height: fit-content;
+  @media (max-width: 575.98px){
+    height: 100%;
+  }
 }
 .router {
   margin-top: 5em;

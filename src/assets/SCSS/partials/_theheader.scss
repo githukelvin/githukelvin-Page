@@ -1,8 +1,11 @@
-@use '../utils' as *;
+@use '../utils'as *;
+@use '../mixin'as *;
 .header {
   position: fixed;
-  z-index: 232;
+  z-index: 23;
   inset: 0;
+    
+
 }
 .nav {
   display: flex;
@@ -10,6 +13,11 @@
   justify-content: space-between;
   align-items: center;
   padding-block: 1em;
+  @include media('xs'){
+    width: 90%;
+    margin: 0 auto;
+   
+  }
 
   &__logo {
     .logo {
@@ -21,20 +29,49 @@
         font-family: 'Roboto-bold';
         font-size: 30px;
         line-height: 45px;
+              @include media('xs') {
+        font-size: 1.5em;
+              }
+
       }
     }
     img {
       width: 100px;
       object-fit: contain;
+            @include media('xs') {
+        width: 50px;
+            }
+
     }
   }
   &__menu {
+    @include media('xs'){
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+
     ul {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
       gap: 1em;
+        @include media('xs') {
+        flex-direction: column;
+        position: relative;
+        top: 0;
+        left: 0;
+        gap: 1em;
+        padding: 1em;
+        background: #caf0f8;
+        width: 100%;
+        z-index: 999;
+        height: 55dvh;
+
+            }
+
       li {
         .link {
           margin: 0 10px;
@@ -44,6 +81,14 @@
           font-weight: 500;
           text-decoration: none;
           font-family: 'Roboto-medium';
+      @include media('xs') {
+        color: #0f172a;
+        font-size: 1.5em;
+        font-weight: 700;
+        text-decoration: none;
+        font-family: 'Roboto-bold';
+        margin: 0.5em 0;
+      }
 
           &:hover {
             // color: ;
@@ -51,5 +96,23 @@
         }
       }
     }
+  }
+  .ham{
+    background-image: url("../images/bars-solid.svg");
+    display: none;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 9999;
+    cursor: pointer;
+      @include media('xs') {
+        display: block;
+      }
+      &.active{
+        background-image: url("../images/xmark-solid.svg");
+      }
+
   }
 }
