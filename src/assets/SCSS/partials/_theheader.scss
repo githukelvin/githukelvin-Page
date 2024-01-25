@@ -7,7 +7,6 @@
   left:0;
   width: 100%;
   height: 90px;
-  overflow-y: auto;
   @include media('xs'){
     height: 70px;
     display: flex;
@@ -58,6 +57,7 @@
   }
  
   &__menu {
+      overflow: hidden;
        @include media('xs'){
         display: none;
        }
@@ -74,6 +74,7 @@
      
 
       li {
+         padding: .5em;
         .link {
           margin: 0 10px;
           color: #e5e7eb;
@@ -131,6 +132,7 @@
      width: 100%;
      margin-top: 5em;
      z-index: 9999;
+     overflow: hidden;
       transform: translateX(-300%);
      transition: transform 0.5s ease-in-out;
 

@@ -33,6 +33,10 @@ const filterProjects = (type) => {
         Machine Learning({{ filterProjects('ML').length }})
       </button>
     </div>
+    <p>Find More of my work here <a href="https://github.com/githukelvin" target="_blank">Github</a>
+      Or <a href="https://www.frontendmentor.io/profile/githukelvin">Frontend Mentor</a>
+    </p>
+
     <div class="projects">
       <ProjectCard v-for="(project, index) in data" :key="index" :project="project" />
 

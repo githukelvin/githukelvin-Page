@@ -1,0 +1,22 @@
+.home{
+    .top{
+        display: grid;
+        place-content: center;
+        img{
+            width: 200px;
+
+        }
+        h1{
+            font-size: 2rem;
+            text-align: center;
+            margin: 0;
+            line-height: 2;
+            color: #fff;
+            span{
+                color: #bd9b06;
+                font-weight: 900;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

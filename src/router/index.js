@@ -32,13 +32,16 @@ const routes = [
     meta: {
       pageTitle: 'Project'
     }
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    redirect: "/",
   }
 ]
-
 const router = createRouter({
-  history: createWebHistory(),
-  routes
-})
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes,
+});
 router.beforeEach((to) => {
   // current page view title
   document.title = `GK -${to.meta.pageTitle} `

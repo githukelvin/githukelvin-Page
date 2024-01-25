@@ -84,6 +84,22 @@
 
   }
 }
+p{
+  color: #fff;
+  font-family: 'Roboto-medium';
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+  padding-block: 1em;
+  a{
+    color: #003b7e;
+    text-decoration: none;
+    font-family: 'Roboto-bold';
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+  }
+}
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
