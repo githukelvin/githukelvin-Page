@@ -8,18 +8,17 @@ import TheFooter from '@/components/TheFooter.vue'
     <TheHeader />
     <div class="router">
       <router-view></router-view>
-
     </div>
     <TheFooter />
   </div>
 </template>
 
 <style scoped lang="scss">
-div{
+div {
   overflow-x: hidden;
   height: fit-content;
 }
-.router{
-  margin-top:5em;
+.router {
+  margin-top: 5em;
 }
 </style>
