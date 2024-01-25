@@ -1,0 +1,55 @@
+@use '../utils' as *;
+.header {
+  position: fixed;
+  z-index: 232;
+  inset: 0;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1em;
+
+  &__logo {
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      color: #fff;
+      h1 {
+        font-family: 'Roboto-bold';
+        font-size: 30px;
+        line-height: 45px;
+      }
+    }
+    img {
+      width: 100px;
+      object-fit: contain;
+    }
+  }
+  &__menu {
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1em;
+      li {
+        .link {
+          margin: 0 10px;
+          color: #e5e7eb;
+          line-height: 21px;
+          font-size: 1.1em;
+          font-weight: 500;
+          text-decoration: none;
+          font-family: 'Roboto-medium';
+
+          &:hover {
+            // color: ;
+          }
+        }
+      }
+    }
+  }
+}
