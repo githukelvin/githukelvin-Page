@@ -104,6 +104,7 @@
     font-family: 'Roboto-medium';
     line-height: 1.5;
     font-size: 1.1em;
+    text-transform:initial;
   }
   h3 {
     font-family: 'Roboto-semibold';
@@ -113,6 +114,8 @@
   }
   ul {
     display: flex;
+    flex-direction: row;
+    flex-wrap: 1;
     padding: 1em;
     gap: 1em;
     li {
@@ -125,6 +128,7 @@
       color: #caf0f8;
       font-family: 'Roboto-bold';
       font-size: 1.05em;
+      text-transform: uppercase;
     }
   }
   .btns {

@@ -34,7 +34,7 @@ const filterProjects = (type) => {
       </button>
     </div>
     <div class="projects">
-      <ProjectCard v-for="(project, index) in data" :key="index" project="project" />
+      <ProjectCard v-for="(project, index) in data" :key="index" :project="project" />
 
     </div>
   </div>

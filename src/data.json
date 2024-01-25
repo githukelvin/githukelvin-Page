@@ -19,7 +19,7 @@
   },
   {
     "title": "Kiswahili Speach to Text",
-    "image": "../assests/images/Kiswahili_STT_CTC.png",
+    "image": "../assets/images/Kiswahili_STT_CTC.png",
     "Desc": "I successfully designed and implemented a Kiswahili Automatic Speech Recognition (ASR) model from scratch using the Nemo framework. The model achieved an impressive accuracy of 74%. To make it accessible to the community, I deployed the model on Hugging Face. You can find my model on Hugging Face's model hub at the following link: huggingface.co/de-coder/stt_sw_ctc_model. It has garnered attention with a total of 67 downloads, showcasing its popularity and practicality in the ASR domain.",
     "live": "https://huggingface.co/de-coder/stt_sw_ctc_model",
     "github": "https://github.com/githukelvin/Mozilla_Common_Voicew",
@@ -28,7 +28,7 @@
   },
   {
     "title": "Mailer",
-    "image": "../assests/images/Mailer-localhost.png",
+    "image": "../assets/images/Mailer-localhost.png",
     "Desc": "I have successfully developed both single and bulk mailer applications, showcasing my proficiency in email communication systems. These applications were designed to streamline and enhance the email sending process, offering users the capability to send individual messages or efficiently manage large-scale email campaigns. My focus on user-friendly interfaces and robust functionality ensures a seamless experience for both individual users and organizations, contributing to effective and efficient email communication.",
     "live": "https://github.com/githukelvin/mailer",
     "github": "https://github.com/githukelvin/mailer",
@@ -37,8 +37,8 @@
   },
   {
     "title": "Attendance System",
-    "image": "../assests/images/Attedance-localhost.png",
-    "Desc": "",
+    "image": "../assets/images/Attedance-localhost.png",
+    "Desc": "I successfully implemented a robust and efficient Student Attendance System that leverages cutting-edge technology to streamline and automate attendance tracking. This system provides a user-friendly interface for both students and faculty, allowing for seamless monitoring and recording of attendance. ",
     "live": "https://github.com/githukelvin/Attedance-system",
     "github": "https://github.com/githukelvin/Attedance-system",
     "category": "personal",
@@ -83,7 +83,7 @@
   {
     "title": "Testimonials grid section",
     "image": "https://www.frontendmentor.io/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdz209s6jk%2Fimage%2Fupload%2Fv1603385671%2FChallenges%2Fhlfgqwj3chzij3t5erjv.jpg&w=384&q=75",
-    "Desc": " practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!",
+    "Desc": "Practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!",
     "live": "https://githukelvin.github.io/testimonial/",
     "github": "https://github.com/githukelvin/testimonial.git",
     "category": "mentor",
