@@ -1,11 +1,11 @@
 [
   {
     "title": "NewsLetter Sign-up Form with Success message",
-    "imgUrl": "multi Step Form",
+    "imgUrl": "https://www.frontendmentor.io/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdz209s6jk%2Fimage%2Fupload%2Fv1685103757%2FChallenges%2Fzimchyd6aujs5y4h5wxd.jpg&w=384&q=75",
     "Desc": "multi Step Form",
-    "live-link": "multi Step Form",
-    "github-link": "",
-    "category": "multi Step Form",
-    "technologies": ["html"]
+    "live-link": "https://githukelvin.github.io/news-letter/",
+    "github-link": "https://github.com/githukelvin/news-letter",
+    "category": "mentor",
+    "technologies": ["html","javascript","scss"]
   }
 ]
