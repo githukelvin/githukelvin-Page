@@ -18,7 +18,7 @@
     "techs": ["vue", "javascript", "scss"]
   },
   {
-    "title": "Kiswahili Speach to Text",
+    "title": "Kiswahili Speech to Text",
     "image": "https://raw.githubusercontent.com/githukelvin/githukelvin-Page/main/src/assets/images/Kiswahili_STT_CTC.png",
     "Desc": "I successfully designed and implemented a Kiswahili Automatic Speech Recognition (ASR) model from scratch using the Nemo framework. The model achieved an impressive accuracy of 74%. To make it accessible to the community, I deployed the model on Hugging Face. You can find my model on Hugging Face's model hub at the following link: huggingface.co/de-coder/stt_sw_ctc_model. It has garnered attention with a total of 67 downloads, showcasing its popularity and practicality in the ASR domain.",
     "live": "https://huggingface.co/de-coder/stt_sw_ctc_model",
