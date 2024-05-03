@@ -1,12 +1,16 @@
 <script setup>
 import ProjectCard from '@/components/ProjectCard.vue'
 import data from '@/data.json'
-// import { watch } from 'vue';
+import { ref } from 'vue';
 
-// let projects = 'all';
+let projects = ref([])
+
+projects.value.push[data]
 
 const filterProjects = (type) => {
   // projects = type
+  const  newData = data.filter((project) => project.category === type)
+  console.log(newData)
   return data.filter((project) => project.category === type)
 }
 </script>
@@ -28,6 +32,9 @@ const filterProjects = (type) => {
       </button>
       <button @click="filterProjects('personal')" class="personalP">
         Personal({{ filterProjects('personal').length }})
+      </button>
+      <button @click="filterProjects('personal')" class="personalP">
+        Work({{ filterProjects('work').length }})
       </button>
       <button @click="filterProjects('ML')" class="ml">
         Machine Learning({{ filterProjects('ML').length }})
