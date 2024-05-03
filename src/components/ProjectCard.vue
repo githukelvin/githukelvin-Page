@@ -1,6 +1,6 @@
 <template>
   <div class="card" :project="project">
-    <img :src="project.image" alt="here" class="card__image" />
+    <img :src="project.image" :alt="project.title" class="card__image" />
     <div class="details">
       <h2>{{ project.title }}</h2>
       <p>{{ project.Desc }}</p>
