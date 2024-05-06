@@ -6,8 +6,8 @@
       <p>{{ project.Desc }}</p>
       <h3>Technologies</h3>
       <ul class="techs">
-        <li  v-for="tech in project.techs" :key="tech.index">
-        {{ tech }}
+        <li v-for="tech in project.techs" :key="tech.index">
+          {{ tech }}
         </li>
       </ul>
       <div class="btns">
@@ -23,15 +23,13 @@
     </div>
   </div>
 </template>
-<script >
+<script>
 export default {
-  props:{
-    project:{
-      type:Object,
-      required:true
-    },
-
-
+  props: {
+    project: {
+      type: Object,
+      required: true
+    }
   }
 }
 // let project = defineProps({

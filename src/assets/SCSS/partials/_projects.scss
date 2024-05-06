@@ -1,5 +1,5 @@
 @use '../utils/' as *;
-@use "../mixin/" as *;
+@use '../mixin/' as *;
 .vid {
   background-image: url(../assets/images/);
   pointer-events: none;
@@ -21,9 +21,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-      @include media('xs') {
-        top: 0;
-      }
+    @include media('xs') {
+      top: 0;
+    }
 
     h1,
     p {
@@ -33,7 +33,7 @@
       color: #141212;
       font-family: 'Roboto-bold';
       font-size: 4em;
-      @include media('xs'){
+      @include media('xs') {
         font-size: 2em;
       }
     }
@@ -59,7 +59,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  @include media('xs'){
+  @include media('xs') {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
@@ -78,21 +78,24 @@
     box-shadow:
       -24px -24px 47px #0c1018,
       24px 24px 47px #30425e;
-        @include media('xs') {
+    @include media('xs') {
       padding-inline: 0.5em;
-        }
-
+    }
+  }
+  .btnActive {
+    color: #01fde8;
+    background: #000;
   }
 }
-p{
+p {
   color: #fff;
   font-family: 'Roboto-medium';
   font-size: 1.1em;
   line-height: 1.5;
   text-align: center;
   padding-block: 1em;
-  a{
-    color: #003b7e;
+  a {
+    color: #c00a47;
     text-decoration: none;
     font-family: 'Roboto-bold';
     font-size: 1.1em;
@@ -103,14 +106,14 @@ p{
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
   gap: 1.5em;
   margin-top: 3em;
-    @include media('xs') {
-      grid-template-columns: 1fr;
-      gap: 2em;
-      padding: 1em;
-    }
-
+  @include media('xs') {
+    grid-template-columns: 1fr;
+    gap: 2em;
+    padding: 1em;
+  }
 }
 .card {
   background: #caf0f8;
@@ -139,17 +142,16 @@ p{
     line-height: 2;
 
     color: #1e293b;
-      @include media('xs') {
-        font-size: 1.2em;
-      }
-
+    @include media('xs') {
+      font-size: 1.2em;
+    }
   }
   p {
     color: #30425e;
     font-family: 'Roboto-medium';
     line-height: 1.5;
     font-size: 1.1em;
-    text-transform:initial;
+    text-transform: initial;
   }
   h3 {
     font-family: 'Roboto-semibold';
@@ -158,8 +160,8 @@ p{
     line-height: 2;
   }
   ul {
-display: grid;
-grid-template-columns: repeat(2,1fr);  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding: 1em;
     gap: 1em;
     li {
@@ -174,10 +176,9 @@ grid-template-columns: repeat(2,1fr);
       font-size: 1.05em;
       text-align: center;
       text-transform: uppercase;
-        @include media('xs') {
-          font-size: 0.8em;
-        }
-
+      @include media('xs') {
+        font-size: 0.8em;
+      }
     }
   }
   .btns {
@@ -185,26 +186,27 @@ grid-template-columns: repeat(2,1fr);
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    gap: 1.5em;
     a {
       padding: 0.3em 1em;
       font-family: 'Roboto-medium';
       display: flex;
+      flex-direction: row;
       align-items: center;
       text-decoration: none;
       border-radius: 10px;
       color: #fff;
-      gap: 0.5em;
+      // gap: 0.5em;
       background: #051f20;
-        @include media('xs') {
-          padding: 0.3em 0.5em;
-        }
+      @include media('xs') {
+        padding: 0.3em 0.5em;
+      }
 
       img {
         width: 50px;
-          @include media('xs') {
-            width: 30px;
-          }
-
+        @include media('xs') {
+          width: 30px;
+        }
       }
       &:hover {
         color: #946217;

@@ -3,12 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   border: none;
   font-size: 1em;
   list-style: none;
   outline: none;
 }
+
 body {
   background: #1e293b;
 }
@@ -25,4 +26,12 @@ body {
     0px 18.1px 32.5px rgba(#0f172a, 0.179),
     0px 33.8px 39.9px rgba(#0f172a, 0.216),
     0px 81px 47px rgba(#0f172a, 0.3);
+}
+::-webkit-scrollbar{
+  background-color: aliceblue;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #0f172a;
+  border-radius: 30px;
 }

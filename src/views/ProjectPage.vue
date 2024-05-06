@@ -1,16 +1,24 @@
 <script setup>
 import ProjectCard from '@/components/ProjectCard.vue'
 import data from '@/data.json'
-import { ref } from 'vue';
+import { ref } from 'vue'
 
-let projects = ref([])
+let projects = ref([...data])
+const filterAllJobs = (type) => {
+  if(type==='all'){
+    projects.value=[...data]
+  }
+  else{
+    const newData = data.filter((project) => project.category === type)
+  projects.value = []
+  projects.value = [...newData]
+  }
 
-projects.value.push[data]
+}
 
 const filterProjects = (type) => {
   // projects = type
-  const  newData = data.filter((project) => project.category === type)
-  console.log(newData)
+
   return data.filter((project) => project.category === type)
 }
 </script>
@@ -26,27 +34,28 @@ const filterProjects = (type) => {
   </div>
   <div class="container">
     <div class="bar">
-      <button @click="filterProjects('all')" class="all">All Projects({{ data.length }})</button>
-      <button @click="filterProjects('mentor')" class="frontend">
+      <button @click="filterAllJobs('all')" class="all">All Projects({{ data.length }})</button>
+      <button @click="filterAllJobs('mentor')" class="frontend">
         Frontend Mentor({{ filterProjects('mentor').length }})
       </button>
-      <button @click="filterProjects('personal')" class="personalP">
+      <button @click="filterAllJobs('personal')" class="personalP">
         Personal({{ filterProjects('personal').length }})
       </button>
-      <button @click="filterProjects('personal')" class="personalP">
+      <button @click="filterAllJobs('work')" class="personalP">
         Work({{ filterProjects('work').length }})
       </button>
-      <button @click="filterProjects('ML')" class="ml">
+      <button @click="filterAllJobs('ML')" class="ml">
         Machine Learning({{ filterProjects('ML').length }})
       </button>
     </div>
-    <p>Find More of my work here <a href="https://github.com/githukelvin" target="_blank">Github</a>
-      Or <a href="https://www.frontendmentor.io/profile/githukelvin">Frontend Mentor</a>
+    <p>
+      Find More of my work here
+      <a href="https://github.com/githukelvin" target="_blank">Github</a> Or
+      <a href="https://www.frontendmentor.io/profile/githukelvin">Frontend Mentor</a>
     </p>
 
     <div class="projects">
-      <ProjectCard v-for="(project, index) in data" :key="index" :project="project" />
-
+      <ProjectCard v-for="(project, index) in projects" :key="index" :project="project" />
     </div>
   </div>
 </template>

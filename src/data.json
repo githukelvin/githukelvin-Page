@@ -2,11 +2,11 @@
   {
     "title": "HyddrooHarvest",
     "image": "https://raw.githubusercontent.com/githukelvin/githukelvin-Page/main/src/assets/images/hyddrooharvest.com.png",
-    "Desc": "",
+    "Desc": "Hyddroo Harvest is a sustainable agricultural initiative addressing food security in rural Kenya by partnering with small holder farmers affected by climate change, erratic rainfall, and degraded soil. Our approach focuses on empowering farmers through capacity building, soil management, water harvesting and precision training",
     "live": "https://hyddrooharvest.com/",
     "github": "https://hyddrooharvest.com/",
     "category": "work",
-    "techs": ["vue", "javascript", "scss","NUXT"]
+    "techs": ["vue", "javascript", "scss", "NUXT"]
   },
   {
     "title": "Culeasy",
@@ -20,20 +20,21 @@
   {
     "title": "Space tourism multi-page website",
     "image": "https://www.frontendmentor.io/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdz209s6jk%2Fimage%2Fupload%2Fv1634300165%2FChallenges%2Fbbbbk7sghmqsg4zhqdo6.jpg&w=384&q=75",
-    "Desc": "Multi page Website",
+    "Desc": "",
     "live": "https://admirable-meerkat-7cd3e2.netlify.app/",
     "github": "https://github.com/githukelvin/Space-tourism",
     "category": "mentor",
+
     "techs": ["vue", "javascript", "scss", "Astro"]
   },
   {
     "title": "AWS DeepRacer",
-    "image": "https://raw.githubusercontent.com/githukelvin/githukelvin-Page/main/src/assets/images/AWS%20DeepRacer%20-%20us-east-1.mp4",
-    "Desc": "Multi page Website",
+    "image": "https://raw.githubusercontent.com/githukelvin/githukelvin-Page/main/src/assets/images/decoders.jfif",
+    "Desc": "As the lead of deCoders team from TUK, my accomplishment was securing an impressive 2nd place finish in the KCA University DeepRacer League by showcasing expertise in training autonomous racing models using AWS DeepRacer, strategically optimizing models, and persevering against fierce competition to narrow the gap to 0.010 seconds in the final run, highlighting my AI/ML prowess, competitiveness, collaboration, and adaptability",
     "live": "",
     "github": "",
     "category": "ML",
-    "techs": ["vue", "javascript", "scss", "Astro"]
+    "techs": ["Python", "Reinforcement learning"]
   },
   {
     "title": "Multi-step form",
@@ -62,14 +63,14 @@
     "category": "personal",
     "techs": ["PHP", "HTML", "SCSS", "Javascript"]
   },
-   {
+  {
     "title": "Rakoli App",
     "image": "https://raw.githubusercontent.com/githukelvin/githukelvin-Page/main/src/assets/images/Rakoli-%20localhost.png",
     "Desc": "Rakoli is a web and mobile software solution for financial service agents that enables agents to manage their business financial operations, exchange account floats and earn additional revenue by performing tasks for other businesses (providers) and referring other agents to use the platform..",
     "live": "https://github.com/githukelvin/rakoli",
     "github": "https://github.com/githukelvin/rakoli",
     "category": "personal",
-    "techs": ["VUe", "PHP", "SCSS","Laravel", "Typescript"]
+    "techs": ["VUe", "PHP", "SCSS", "Laravel", "Typescript"]
   },
   {
     "title": "Attendance System",
