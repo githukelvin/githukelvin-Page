@@ -11,16 +11,25 @@
   {
     "title": "Culeasy",
     "image": "https://raw.githubusercontent.com/githukelvin/githukelvin-Page/main/src/assets/images/culeasy.com.png",
-    "Desc": "",
+    "Desc": "Culeasy is a cash exchange platform where use visit the website search his/her cash exchange needs and location and the platform provides best,readily available,and high rated currency cashpoints.",
     "live": "https://culeasy.com/",
     "github": "https://culeasy.com/",
     "category": "work",
-    "techs": ["vue", "javascript", "scss"]
+    "techs": ["vue", "javascript", "scss","tailwind"]
+  },
+  {
+    "title": "Bridge",
+    "image": "@/assets/images/bridge.png",
+    "Desc": "Bridge is an investment platform that connects web3 innovators and enterprenuers to funding,VCs, Mentors.  Our mission is clear, linking visionary innovators from all corners of the globe with diverse range of investors worldwide . With our commitment to connectivity, we're creating opportunities and fueling innovation on a global scale ",
+    "live": "https://www.br-ge.com/",
+    "github": "https://www.br-ge.com/",
+    "category": "work",
+    "techs": ["vue", "tailwind", "supabase"]
   },
   {
     "title": "Space tourism multi-page website",
     "image": "https://www.frontendmentor.io/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdz209s6jk%2Fimage%2Fupload%2Fv1634300165%2FChallenges%2Fbbbbk7sghmqsg4zhqdo6.jpg&w=384&q=75",
-    "Desc": "",
+    "Desc": "Simple multi page static  site incorporating no js framework Astro and vuejs to add interactivity",
     "live": "https://admirable-meerkat-7cd3e2.netlify.app/",
     "github": "https://github.com/githukelvin/Space-tourism",
     "category": "mentor",
