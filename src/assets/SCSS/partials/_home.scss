@@ -45,21 +45,32 @@
       }
       .socials {
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
         justify-content: center;
         align-items: center;
         margin-block: 1rem;
+        // @include media('xs') {
+        //   flex-direction: row;
+        // }
 
         .soc {
           display: flex;
           flex-direction: row;
           margin-top: 2em;
           gap: 2em;
+          @include media('xs') {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-bottom: 1em;
+          }
 
           a {
             padding: 2.5em;
             background: linear-gradient(145deg, #ffffff, #b3b5b8);
             border-radius: 100%;
+            @include media('xs') {
+              padding: 1em;
+            }
             // box-shadow:
             //   15.62px 15.62px 36px #9c9da0,
             //   -15.62px -15.62px 36px #ffffff;
