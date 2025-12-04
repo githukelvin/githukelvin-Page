@@ -135,4 +135,3 @@
 # Production context
 [context.production]
   command = "npm run build"
-  environment = { NODE_ENV = "production" }
