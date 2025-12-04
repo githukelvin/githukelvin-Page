@@ -25,14 +25,14 @@
   ],
   "projects": [
     {
-      "name": "SAP B1 Purchase Order Inventory Control System",
+      "name": "ERP Purchase Order Inventory Control System",
       "company": "Leysco",
       "type": "Enterprise Integration",
-      "technologies": ["SQL Server 2019", "SAP B1 SDK", "Stored Procedures"],
+      "technologies": ["Enterprise Database Systems", "ERP Integration Tools"],
       "description": "Automated validation system that blocks Purchase Orders when inventory would exceed predefined maximum levels",
       "features": [
-        "Custom field U_MaxInvLevel in Item Master Data table",
-        "Modified SBO_SP_TransactionNotification stored procedure",
+        "Custom inventory threshold configurations in master data",
+        "Transaction validation automation",
         "User-specific override capabilities for procurement managers",
         "Real-time transaction validation"
       ],
@@ -44,15 +44,15 @@
       "name": "Partsultan Automotive Parts Sourcing Platform",
       "company": "Personal/Business",
       "type": "B2B Platform",
-      "technologies": ["Laravel 11", "PHP 8.3", "WhatsApp Business API", "OpenAI API", "MySQL"],
+      "technologies": ["Modern PHP Framework", "Messaging APIs", "AI Integration", "Relational Database"],
       "description": "Comprehensive B2B platform for automotive parts sourcing with intelligent supplier management",
       "features": [
-        "WhatsApp Business API integration with template approval management",
-        "3-tier intelligent supplier escalation system (1hr → 3hr → 6hr)",
+        "Business messaging platform integration with automation",
+        "Multi-tier intelligent supplier escalation system",
         "AI-powered response analysis with quality scoring",
         "Multi-supplier broadcasting with response tracking",
-        "Smart message formatting handling API restrictions",
-        "Laravel Queue system for background processing"
+        "Smart message formatting and template management",
+        "Background job processing for async operations"
       ],
       "impact": "Reduced sourcing time from hours to minutes, improved supplier response rates",
       "github": null,
@@ -62,42 +62,44 @@
       "name": "ICABS Transportation Platform",
       "company": "Personal/Business",
       "type": "Mobile Application",
-      "technologies": ["React Native", "Expo", "Firebase", "Redux", "Google Maps API"],
-      "description": "Full-featured taxi/ride-sharing application with real-time capabilities",
+      "technologies": ["Cross-Platform Mobile Framework", "Real-time Database", "State Management", "Maps Integration", "Backend Runtime"],
+      "description": "Complete ride-sharing platform with mobile app, web dashboard, and backend infrastructure handling real-time ride matching and payment processing",
       "features": [
-        "Real-time ride matching and tracking",
-        "Firebase Realtime Database and Firestore integration",
-        "Comprehensive security rules for data protection",
-        "19 payment gateway integrations including M-Pesa",
-        "React web dashboard for administration",
-        "Google Play Console deployment"
+        "Real-time ride matching and tracking with mapping services",
+        "Cloud-based real-time data synchronization",
+        "Comprehensive security rules and data protection",
+        "Multiple payment gateway integrations",
+        "Web dashboard for driver and admin management",
+        "Mobile app store deployment and optimization",
+        "Push notifications for ride updates and alerts",
+        "Rating and review system for drivers and passengers"
       ],
-      "impact": "Complete transportation solution with modern UI/UX and WCAG AA compliance",
+      "impact": "Complete transportation solution with modern UI/UX, accessibility compliance, and successful deployment serving real users",
       "github": null,
       "demo": "icabs.co.ke"
     },
     {
-      "name": "SAP B1 Frontend Modules",
+      "name": "Enterprise ERP Frontend Modules",
       "company": "Leysco",
       "type": "Enterprise Frontend",
-      "technologies": ["Vue.js 3", "Composition API", "Tailwind CSS", "Vuex"],
-      "description": "Comprehensive frontend interfaces for six major SAP Business One modules",
+      "technologies": ["Modern JavaScript Frameworks", "Component Libraries", "State Management"],
+      "description": "Comprehensive frontend interfaces for multiple enterprise ERP modules",
       "modules": [
         "Landed Costs Management",
         "Inventory Revaluation",
         "Banking & House Banking",
         "Inventory Posting",
-        "Setup APIs",
-        "Payments & Serials"
+        "Setup & Configuration",
+        "Payment Processing"
       ],
       "features": [
         "Component-based architecture for reusability",
         "Real-time validation and error handling",
         "Responsive design for desktop and tablet",
         "Comprehensive state management",
-        "M-Pesa integration for payments"
+        "Payment gateway integrations"
       ],
-      "impact": "Streamlined SAP operations across multiple departments",
+      "impact": "Streamlined ERP operations across multiple departments",
       "github": null,
       "demo": null
     },
@@ -105,29 +107,29 @@
       "name": "Climate Vulnerability Mapping Application",
       "company": "Personal/Contract",
       "type": "Data Visualization",
-      "technologies": ["Vue.js", "Nuxt3", "Flask", "SQLite", "Leaflet.js"],
+      "technologies": ["Modern JavaScript Framework", "Python Backend", "Database", "Mapping Library"],
       "description": "Interactive data visualization platform for climate vulnerability analysis across African countries",
       "features": [
-        "District-level vulnerability mapping for 4 countries",
-        "Choropleth maps with interactive visualizations",
-        "Gender participation analysis",
+        "District-level vulnerability mapping for multiple countries",
+        "Interactive geographic visualizations",
+        "Demographic participation analysis",
         "Time series data visualization",
-        "CSV to SQLite migration for performance"
+        "Optimized data storage for performance"
       ],
       "impact": "Enabled data-driven climate policy decisions for African regions",
       "github": null,
       "demo": null
     },
     {
-      "name": "Blanket Agreements Implementation",
+      "name": "Procurement Agreement Management System",
       "company": "Leysco",
       "type": "Enterprise Feature",
-      "technologies": ["Vue.js 3", "Laravel", "RESTful API"],
-      "description": "Complete blanket agreement management system for procurement",
+      "technologies": ["Modern Web Frameworks", "Backend APIs", "Database Systems"],
+      "description": "Complete procurement agreement management system with vendor and contract workflows",
       "features": [
-        "11 RESTful API endpoints",
-        "7-layer validation system",
-        "Vue 3 frontend with Composition API",
+        "RESTful API architecture",
+        "Multi-layer validation system",
+        "Modern frontend with reactive components",
         "Comprehensive CRUD operations"
       ],
       "impact": "Streamlined procurement process and improved vendor management",
@@ -138,10 +140,10 @@
       "name": "HyddroHarvest Website",
       "company": "Client Project",
       "type": "Static Website",
-      "technologies": ["Nuxt3", "Tailwind CSS", "Netlify"],
+      "technologies": ["Modern JavaScript Framework", "CSS Framework", "Hosting Platform"],
       "description": "Modern static site for water harvesting solutions company",
       "features": [
-        "Server-side rendering with Nuxt3",
+        "Server-side rendering for performance",
         "Responsive design implementation",
         "SEO optimization",
         "Custom domain configuration"
@@ -154,17 +156,55 @@
       "name": "Conference Management Platform",
       "company": "Contract/Client",
       "type": "Full-Stack Application",
-      "technologies": ["Next.js 14", "TypeScript", "Supabase", "Bootstrap 5", "PostgreSQL"],
-      "description": "Full-stack web application for international AI/ML conference organization featuring public event information and application management",
+      "technologies": ["Modern React Framework", "Type-Safe Language", "Backend-as-a-Service", "CSS Framework", "Relational Database", "Type-Safe ORM"],
+      "description": "Full-stack web application for international AI/ML conference organization featuring public event information, application management, and comprehensive admin workflows",
       "features": [
-        "Public-facing event information and news system",
-        "Application submission and review workflow for 200+ applicants",
-        "Admin panel for content management and application evaluation",
+        "Public-facing event information and news system with dynamic content",
+        "Application submission and review workflow for large-scale applicants",
+        "Multi-role admin panel for content management and evaluation",
         "Gallery system with downloadable media from multiple years",
-        "Newsletter subscription integration",
-        "Speaker showcase with interactive UI components"
+        "Newsletter subscription integration with automated delivery",
+        "Speaker showcase with interactive UI components",
+        "Application tracking system with status updates and notifications",
+        "Responsive design supporting all device types"
       ],
-      "impact": "Architected complete Next.js 14 application with PostgreSQL database schema (7+ tables), secure admin authentication, and responsive UI supporting mobile and desktop users",
+      "impact": "Architected complete full-stack application with normalized database schema, type-safe ORM integration, secure authentication, role-based access control, and scalable infrastructure",
+      "github": null,
+      "demo": null
+    },
+    {
+      "name": "Fiscal Compliance System Integration",
+      "company": "Enterprise Experience",
+      "type": "Compliance & Integration",
+      "technologies": ["Enterprise Backend Frameworks", "Relational Databases", "Hardware Integration SDKs"],
+      "description": "Experience with fiscal compliance systems integrating ERP platforms with government-certified electronic tax registers for automated invoice processing and regulatory reporting",
+      "features": [
+        "Real-time fiscal device communication and invoice transmission",
+        "Automated tax calculation and compliance reporting",
+        "Multi-device support with fallback mechanisms",
+        "Local data persistence for regulatory compliance",
+        "Integration with ERP systems for seamless workflows",
+        "Error handling and recovery for critical operations"
+      ],
+      "impact": "Gained deep understanding of fiscal compliance requirements, government regulation integration, and enterprise-grade transaction processing systems",
+      "github": null,
+      "demo": null
+    },
+    {
+      "name": "Enterprise ERP System Development",
+      "company": "Leysco",
+      "type": "Enterprise ERP",
+      "technologies": ["ERP SDKs", "Enterprise Databases", "Business Logic Frameworks"],
+      "description": "Development work on enterprise ERP system covering production, inventory, material planning, and resource management modules",
+      "features": [
+        "Production module enhancements for manufacturing workflows",
+        "Material Requirements Planning implementations",
+        "Inventory management and warehouse operations",
+        "Resource allocation and capacity planning features",
+        "Business logic automation and process optimization",
+        "Data integration and synchronization workflows"
+      ],
+      "impact": "Contributed to enterprise-level ERP solutions improving manufacturing and inventory operations for organization",
       "github": null,
       "demo": null
     }
@@ -177,16 +217,18 @@
       "mobile": ["Expo", "Progressive Web Apps"]
     },
     "backend": {
-      "languages": ["PHP 8.3", "Node.js", "Python", "C#"],
-      "frameworks": ["Laravel 11", "Express.js", "Flask"],
+      "languages": ["PHP 8.3", "Node.js", "Python", "C#", ".NET"],
+      "frameworks": ["Laravel 11", "Express.js", "Flask", "Entity Framework Core"],
       "databases": ["MySQL", "SQL Server 2019", "PostgreSQL", "SQLite", "Firebase", "Supabase"],
+      "orms": ["Drizzle ORM", "Entity Framework Core", "Eloquent"],
       "apis": ["RESTful", "GraphQL", "WebSockets"]
     },
     "enterpriseIntegration": {
       "sapBusinessOne": ["SDK", "DI API", "Service Layer", "Stored Procedures"],
       "paymentSystems": ["M-Pesa Daraja API", "Paystack", "Stripe"],
       "messaging": ["WhatsApp Business API Cloud v23.0"],
-      "cloudServices": ["Firebase Realtime Database", "Firestore", "Cloud Functions"]
+      "cloudServices": ["Firebase Realtime Database", "Firestore", "Cloud Functions"],
+      "fiscalCompliance": ["KRA TIMS Integration", "Tremol ETR SDK", "Electronic Tax Registers"]
     },
     "devOps": {
       "versionControl": ["Git", "GitHub"],
@@ -225,9 +267,12 @@
   ],
   "currentlyLearning": [
     "Advanced SAP Business One integration patterns",
+    "ABAP (SAP scripting and development)",
+    "SAP HANA database and in-memory computing",
     "Real-time data synchronization techniques",
     "Advanced machine learning model optimization",
     "Cloud architecture and serverless computing",
-    "GraphQL API development"
+    "GraphQL API development",
+    ".NET Core performance optimization"
   ]
 }
