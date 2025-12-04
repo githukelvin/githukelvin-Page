@@ -1,0 +1,233 @@
+{
+  "personalInfo": {
+    "name": "Kelvin Githu",
+    "title": "Full-Stack Developer",
+    "email": "kelvingithu019@gmail.com",
+    "github": "github.com/githukelvin",
+    "portfolio": "githukelvin.tech",
+    "location": "Nairobi, Kenya",
+    "summary": "Full-Stack Developer specializing in SAP Business One integrations, Vue.js frontend development, and enterprise-level applications. Proven track record delivering scalable solutions with expertise in Laravel, React Native, and API integrations."
+  },
+  "experience": [
+    {
+      "company": "Leysco",
+      "position": "Full-Stack Developer",
+      "period": "Current",
+      "location": "Nairobi, Kenya",
+      "description": "Leading development of enterprise SAP Business One integrations and modern web applications",
+      "achievements": [
+        "Implemented automated Purchase Order inventory control system preventing inventory overflow",
+        "Developed 6 major SAP B1 frontend modules using Vue.js 3",
+        "Created comprehensive Blanket Agreements system with 11 RESTful API endpoints",
+        "Streamlined procurement and inventory management processes"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SAP B1 Purchase Order Inventory Control System",
+      "company": "Leysco",
+      "type": "Enterprise Integration",
+      "technologies": ["SQL Server 2019", "SAP B1 SDK", "Stored Procedures"],
+      "description": "Automated validation system that blocks Purchase Orders when inventory would exceed predefined maximum levels",
+      "features": [
+        "Custom field U_MaxInvLevel in Item Master Data table",
+        "Modified SBO_SP_TransactionNotification stored procedure",
+        "User-specific override capabilities for procurement managers",
+        "Real-time transaction validation"
+      ],
+      "impact": "Prevented inventory overflow and optimized stock management organization-wide",
+      "github": null,
+      "demo": null
+    },
+    {
+      "name": "Partsultan Automotive Parts Sourcing Platform",
+      "company": "Personal/Business",
+      "type": "B2B Platform",
+      "technologies": ["Laravel 11", "PHP 8.3", "WhatsApp Business API", "OpenAI API", "MySQL"],
+      "description": "Comprehensive B2B platform for automotive parts sourcing with intelligent supplier management",
+      "features": [
+        "WhatsApp Business API integration with template approval management",
+        "3-tier intelligent supplier escalation system (1hr → 3hr → 6hr)",
+        "AI-powered response analysis with quality scoring",
+        "Multi-supplier broadcasting with response tracking",
+        "Smart message formatting handling API restrictions",
+        "Laravel Queue system for background processing"
+      ],
+      "impact": "Reduced sourcing time from hours to minutes, improved supplier response rates",
+      "github": null,
+      "demo": "test.partsultan.com"
+    },
+    {
+      "name": "ICABS Transportation Platform",
+      "company": "Personal/Business",
+      "type": "Mobile Application",
+      "technologies": ["React Native", "Expo", "Firebase", "Redux", "Google Maps API"],
+      "description": "Full-featured taxi/ride-sharing application with real-time capabilities",
+      "features": [
+        "Real-time ride matching and tracking",
+        "Firebase Realtime Database and Firestore integration",
+        "Comprehensive security rules for data protection",
+        "19 payment gateway integrations including M-Pesa",
+        "React web dashboard for administration",
+        "Google Play Console deployment"
+      ],
+      "impact": "Complete transportation solution with modern UI/UX and WCAG AA compliance",
+      "github": null,
+      "demo": "icabs.co.ke"
+    },
+    {
+      "name": "SAP B1 Frontend Modules",
+      "company": "Leysco",
+      "type": "Enterprise Frontend",
+      "technologies": ["Vue.js 3", "Composition API", "Tailwind CSS", "Vuex"],
+      "description": "Comprehensive frontend interfaces for six major SAP Business One modules",
+      "modules": [
+        "Landed Costs Management",
+        "Inventory Revaluation",
+        "Banking & House Banking",
+        "Inventory Posting",
+        "Setup APIs",
+        "Payments & Serials"
+      ],
+      "features": [
+        "Component-based architecture for reusability",
+        "Real-time validation and error handling",
+        "Responsive design for desktop and tablet",
+        "Comprehensive state management",
+        "M-Pesa integration for payments"
+      ],
+      "impact": "Streamlined SAP operations across multiple departments",
+      "github": null,
+      "demo": null
+    },
+    {
+      "name": "Climate Vulnerability Mapping Application",
+      "company": "Personal/Contract",
+      "type": "Data Visualization",
+      "technologies": ["Vue.js", "Nuxt3", "Flask", "SQLite", "Leaflet.js"],
+      "description": "Interactive data visualization platform for climate vulnerability analysis across African countries",
+      "features": [
+        "District-level vulnerability mapping for 4 countries",
+        "Choropleth maps with interactive visualizations",
+        "Gender participation analysis",
+        "Time series data visualization",
+        "CSV to SQLite migration for performance"
+      ],
+      "impact": "Enabled data-driven climate policy decisions for African regions",
+      "github": null,
+      "demo": null
+    },
+    {
+      "name": "Blanket Agreements Implementation",
+      "company": "Leysco",
+      "type": "Enterprise Feature",
+      "technologies": ["Vue.js 3", "Laravel", "RESTful API"],
+      "description": "Complete blanket agreement management system for procurement",
+      "features": [
+        "11 RESTful API endpoints",
+        "7-layer validation system",
+        "Vue 3 frontend with Composition API",
+        "Comprehensive CRUD operations"
+      ],
+      "impact": "Streamlined procurement process and improved vendor management",
+      "github": null,
+      "demo": null
+    },
+    {
+      "name": "HyddroHarvest Website",
+      "company": "Client Project",
+      "type": "Static Website",
+      "technologies": ["Nuxt3", "Tailwind CSS", "Netlify"],
+      "description": "Modern static site for water harvesting solutions company",
+      "features": [
+        "Server-side rendering with Nuxt3",
+        "Responsive design implementation",
+        "SEO optimization",
+        "Custom domain configuration"
+      ],
+      "impact": "Professional web presence with optimal performance",
+      "github": null,
+      "demo": "hydrooharvest.com"
+    },
+    {
+      "name": "Conference Management Platform",
+      "company": "Contract/Client",
+      "type": "Full-Stack Application",
+      "technologies": ["Next.js 14", "TypeScript", "Supabase", "Bootstrap 5", "PostgreSQL"],
+      "description": "Full-stack web application for international AI/ML conference organization featuring public event information and application management",
+      "features": [
+        "Public-facing event information and news system",
+        "Application submission and review workflow for 200+ applicants",
+        "Admin panel for content management and application evaluation",
+        "Gallery system with downloadable media from multiple years",
+        "Newsletter subscription integration",
+        "Speaker showcase with interactive UI components"
+      ],
+      "impact": "Architected complete Next.js 14 application with PostgreSQL database schema (7+ tables), secure admin authentication, and responsive UI supporting mobile and desktop users",
+      "github": null,
+      "demo": null
+    }
+  ],
+  "skills": {
+    "frontend": {
+      "frameworks": ["Vue.js 3", "React", "Nuxt3", "React Native"],
+      "libraries": ["Tailwind CSS", "Vuetify", "Bootstrap"],
+      "stateManagement": ["Vuex", "Redux", "Pinia"],
+      "mobile": ["Expo", "Progressive Web Apps"]
+    },
+    "backend": {
+      "languages": ["PHP 8.3", "Node.js", "Python", "C#"],
+      "frameworks": ["Laravel 11", "Express.js", "Flask"],
+      "databases": ["MySQL", "SQL Server 2019", "PostgreSQL", "SQLite", "Firebase", "Supabase"],
+      "apis": ["RESTful", "GraphQL", "WebSockets"]
+    },
+    "enterpriseIntegration": {
+      "sapBusinessOne": ["SDK", "DI API", "Service Layer", "Stored Procedures"],
+      "paymentSystems": ["M-Pesa Daraja API", "Paystack", "Stripe"],
+      "messaging": ["WhatsApp Business API Cloud v23.0"],
+      "cloudServices": ["Firebase Realtime Database", "Firestore", "Cloud Functions"]
+    },
+    "devOps": {
+      "versionControl": ["Git", "GitHub"],
+      "packageManagers": ["npm", "Composer", "pip", "Yarn"],
+      "deployment": ["Netlify", "cPanel", "Firebase Hosting"],
+      "tools": ["VS Code", "Chrome DevTools", "Postman", "Insomnia"]
+    },
+    "dataScience": {
+      "libraries": ["pandas", "NumPy", "scikit-learn", "TensorFlow"],
+      "techniques": ["Feature selection", "Data preprocessing", "Model evaluation"],
+      "datasets": ["CSE-CIC-IDS-2018", "LITNET-2020"],
+      "methods": ["Distance correlation", "Kendall's tau", "HSIC-Lasso"]
+    }
+  },
+  "education": [
+    {
+      "degree": "Bachelor's in Communication and Computer Networks",
+      "institution": "The Technical University of Kenya",
+      "year": "2024",
+      "coursework": [
+        "Network Administration and Security",
+        "Database Management Systems",
+        "Software Engineering",
+        "Mobile Application Development"
+      ]
+    }
+  ],
+  "strengths": [
+    "Enterprise SAP integrations",
+    "Full-stack development (frontend to database)",
+    "API design and integration",
+    "Mobile app development",
+    "Problem-solving and debugging",
+    "Technical documentation",
+    "Cross-functional collaboration"
+  ],
+  "currentlyLearning": [
+    "Advanced SAP Business One integration patterns",
+    "Real-time data synchronization techniques",
+    "Advanced machine learning model optimization",
+    "Cloud architecture and serverless computing",
+    "GraphQL API development"
+  ]
+}
